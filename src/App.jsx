@@ -1,4 +1,3 @@
-import "./App.css";
 import Search from "./components/Search/index.jsx";
 import DigimonList from "./components/DigimonList";
 import Loading from "./components/Loading";

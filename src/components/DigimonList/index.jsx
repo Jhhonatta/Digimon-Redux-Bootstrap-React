@@ -28,9 +28,9 @@ const DigimonList = () => {
           return (
             <ListGroup.Item
               key={indice}
-              className={`card bg-${backgroundItem} my-1  d-flex flex-column  align-items-center m-0 col-8 col-md-3 m-md-2`}
+              className={`card bg-${backgroundItem} my-1  d-flex flex-column   m-0 col-8 col-md-3 m-md-2`}
             >
-              <p className="w-100 text-left ">
+              <p className="w-80 text-left mr-1">
                 Nome: <br /> {elem.name}
               </p>
               <p className="w-100 text-left">
