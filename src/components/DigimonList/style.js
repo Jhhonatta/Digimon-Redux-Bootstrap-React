@@ -35,7 +35,7 @@ export const ContainerCard = styled(Container)`
     .card {
       width: 35%;
       p {
-        font-size: 12px;
+        font-size: 10px;
       }
     }
 
