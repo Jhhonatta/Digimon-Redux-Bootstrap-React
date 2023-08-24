@@ -3,4 +3,8 @@ import { styled } from "styled-components";
 
 export const ContainerLoading = styled(Container)`
   height: 80vh;
+
+  h3 {
+    color: white;
+  }
 `;

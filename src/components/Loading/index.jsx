@@ -8,7 +8,7 @@ const Loading = () => {
       className=" d-flex justify-content-center align-items-center"
     >
       <div className="text-center">
-        <Spinner animation="border" variant="primary" className="mb-2" />
+        <Spinner animation="border" variant="light" className="mb-2" />
         <h3>Carregando...</h3>
       </div>
     </ContainerLoading>

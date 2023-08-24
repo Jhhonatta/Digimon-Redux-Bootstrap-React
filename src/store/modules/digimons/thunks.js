@@ -14,7 +14,7 @@ export const fetchAllDigimonsThunk = () => async (dispatch) => {
 export const fetchSingleDigimonThunk =
   (digimon, setError) => async (dispatch) => {
     try {
-      const response = await api.get(`/api/digimon/name/${digimon}`).then();
+      const response = await api.get(`/api/digimon/name/${digimon}`);
       dispatch(addDigimons(...response.data));
     } catch (error) {
       console.log(error.response.data.ErrorMsg);

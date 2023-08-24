@@ -96,7 +96,7 @@ const Search = () => {
           <Digimon />
         </Form>
         {error && (
-          <Alert variant="danger" className="w-75 m-auto mb-2 text-center">
+          <Alert variant="danger" className="w-50 m-auto mb-2 text-center">
             Digimon não encontrado.
           </Alert>
         )}
